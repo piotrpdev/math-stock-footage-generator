@@ -1,28 +1,30 @@
 {
-  "name": "my-video",
+  "name": "math-stock-footage-generator",
   "version": "1.0.0",
-  "description": "My Remotion video",
+  "description": "Generates stock footage of formulae flying around with a transparent background",
   "scripts": {
     "start": "remotion preview src/index.tsx",
-    "build": "remotion render src/index.tsx HelloWorld out/video.mp4",
+    "build": "remotion render src/index.tsx MathStockFootage out/video.mp4",
     "upgrade": "remotion upgrade",
     "test": "eslint src --ext ts,tsx,js,jsx && tsc"
   },
-  "repository": {},
-  "license": "UNLICENSED",
+  "license": "MIT",
   "dependencies": {
     "@remotion/bundler": "^3.0.0",
     "@remotion/cli": "^3.0.0",
     "@remotion/eslint-config": "^3.0.0",
     "@remotion/renderer": "^3.0.0",
     "eslint": "^8.14.0",
+    "katex": "^0.15.3",
     "prettier": "^2.2.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-latex": "^2.0.0",
     "remotion": "^3.0.0",
     "typescript": "^4.6.3"
   },
   "devDependencies": {
+    "@types/katex": "^0.14.0",
     "@types/react": "^18.0.6",
     "@types/web": "^0.0.61"
   }

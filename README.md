@@ -1,51 +1,22 @@
-# Remotion video
+# Math Stock Footage Generator
 
-<p align="center">
-  <a href="https://github.com/remotion-dev/logo">
-    <img src="https://github.com/remotion-dev/logo/raw/main/withtitle/element-0.png">
-  </a>
-</p>
+![Example](.github/example/example.gif)
 
-Welcome to your Remotion project!
+Generates a video with formulas flying around using [Remotion](https://www.remotion.dev/). *You can make the background transparent by the way*.
 
-## Commands
+## How do I use it?
 
-**Install Dependencies**
+> Make sure you have [Node](https://nodejs.org/en/) installed.
 
-```console
-npm i
-```
+* Clone the repo and `cd` into it.
+* `npm i`
+* Change the forumlas to whatever you like and mess around with the settings.
+* `npm run build`
 
-**Start Preview**
+## Resources used
 
-```console
-npm start
-```
-
-**Render video**
-
-```console
-npm run build
-```
-
-**Upgrade Remotion**
-
-```console
-npm run upgrade
-```
-
-## Docs
-
-Get started with Remotion by reading the [fundamentals page](https://www.remotion.dev/docs/the-fundamentals).
-
-## Help
-
-We provide help [on our Discord server](https://discord.gg/6VzzNDwUwV).
-
-## Issues
-
-Found an issue with Remotion? [File an issue here](https://github.com/remotion-dev/remotion/issues/new).
+* [Formulas in the example](https://en.wikibooks.org/wiki/LaTeX/Mathematics)
 
 ## License
 
-Notice that for some entities a company license is needed. Read [the terms here](https://github.com/remotion-dev/remotion/blob/main/LICENSE.md).
+Licensed under the MIT license.
